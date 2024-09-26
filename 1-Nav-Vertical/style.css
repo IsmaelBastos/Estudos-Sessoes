@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+ul{
+    width: 15%;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    background-color: orange;
+}
+ul a{
+    display: block;
+    padding: 10px 20px;
+    background-image: url(img/sort_right_12px.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+ul a{
+    text-decoration: none;
+    color: yellow;
+}
+ul a:hover{
+    background-color: yellow;
+    color: orange;
+}
+
+
+

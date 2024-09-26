@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transicões</title>
+    <style>
+        @font-face {
+            font-family: 'Road';
+            src: url(../7-Fontes/fonte1/RoadRage.woff);
+        }
+        body{
+            background-color: #000000;
+            color: #ffffff;
+        }
+     div{
+        width: 200px;
+        height: 200px;
+        background-color: #0000ff;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+     }
+     div>span{
+        display: none;
+     }
+     div:hover>span{
+        display: block;
+        color: #ff0000;
+        font-family: 'Road';
+     }
+     div:hover{
+        display: block;
+        width: 300px;
+        background-color:#ffffff;
+       /*transition: width 3s, background-color 3s;*/
+        transition: all 3s;
+     }
+
+     span{
+        font-size: 3em;
+     }
+    </style>
+</head>
+<body>
+    <h1>Transições</h1>
+<div>
+    <span>IM</span>
+</div>
+</body>
+</html>

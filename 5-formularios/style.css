@@ -1,0 +1,32 @@
+@charset "UTF-8";
+fieldset{
+    padding: 1em;
+    border:1px solid #ccc;
+    background-color: #f8f8f8;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    display: block;
+}
+input#name{
+    width: 20em;
+}
+input#email{
+    width: 20em;
+}
+input#url{
+    width: 20em;
+}
+#yes{
+    display: inline;
+}
+#no{
+    display: inline;
+}
+textarea{
+    width: 20em;
+    height: 10em;
+}
+

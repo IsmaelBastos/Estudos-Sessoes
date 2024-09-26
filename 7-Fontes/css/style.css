@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'Ancient';
+    src: url('../fonte1/Ancient-Medium.woff');
+}
+@font-face {
+    font-family: 'BringHeart';
+    src: url('../fonte1/BringHeart.woff');
+}
+@font-face {
+    font-family: 'Madelina';
+    src: url('../fonte1/MadelinaScript.woff');
+}
+@font-face {
+    font-family: 'Road';
+    src: url('../fonte1/RoadRage.woff');
+}
+body{
+    font-family: 'Ancient';
+}
+p{
+    font-family: 'BringHeart';
+}
+h2{
+    font-family: 'Madelina';
+}
+.font{
+    font-family: 'Road';
+}
+h3{
+    font-family: 'Road';
+    font-size: 6em;
+}

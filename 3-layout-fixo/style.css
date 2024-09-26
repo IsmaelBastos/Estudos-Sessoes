@@ -1,0 +1,55 @@
+ @charset "UTF-8";
+
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+ body{
+    background-color: #e2e2e2;
+
+ }
+ #conteiner{
+    margin: 10px  auto;
+    max-width: 1090px;
+    min-width: 420px;
+    width: 100%;
+ }
+ header{
+    background-color: darkgray;
+    padding: 20px;
+
+ }
+ nav{
+    background-color: darkgray;
+    padding: 5px;
+
+ }
+ nav a{
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+ }
+ #main{
+    display: flex;
+    background-color: white;
+
+ }
+ article{
+    padding: 10px;
+ }
+ aside{
+    margin: 0px;
+    background-color: #cfcfcf;
+    padding: 10px;
+ }
+ img{
+    width: 100%;
+ }
+ #left{
+    margin-bottom: 10px;
+    width: 80%;
+ }
+ footer{
+    background-color: darkgray;
+    text-align: center;
+ }

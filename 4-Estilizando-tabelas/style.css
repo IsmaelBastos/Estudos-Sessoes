@@ -1,0 +1,40 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    background-color: #beffff;
+}
+main > h1{
+    text-align: center;
+}
+main > table{
+    margin: auto;
+    width: 500px;
+    border: 1px solid black;
+    border-collapse: collapse; /*separete ou collapse*/
+}
+main th{
+
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    letter-spacing: .1em;
+}
+main td{
+    border: 1px solid black;
+    padding: 10px;
+}
+main tr:hover{
+background-color: blue;
+color: white;
+}
+.number{
+    text-align: right;
+}
+.number:hover{
+    background-color: red;
+}

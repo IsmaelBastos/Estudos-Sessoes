@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputl</title>
+    <style>
+        input{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Inputs</legend>
+            <div>
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required autofocus placeholder="Digite o seu Nome">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required autofocus placeholder="Digite o seu Email">
+            </div>
+            <br>
+            <div>
+                <label for="number">Números Pares</label>
+                <input type="number" name="number" id="number" min="0" step="2" max="100" required autofocus placeholder="Digite um número par mair que 0 e inferior ou igual a 100">
+            </div>
+            <br>
+            <div>
+                <label for="url">URL</label>
+                <input type="url" name="url" id="url" required autofocus placeholder="Ex:https://wwww.exemplo.com">
+            </div>
+            <br>
+            <div>
+                <label for="pesquiza">Pesquizar</label>
+                <input type="search" name="search" id="search" required autofocus>
+            </div>
+            <br>
+            <div>
+                <label for="range">Range</label>
+                <input type="range" name="range" id="range" min="1" max="50" value="10">
+            </div>
+            <br>
+            <div>
+                <label for="date">Data</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <br>
+            <div>
+                <label for="color">Cor</label>
+                <input type="color" name="color" id="color">
+            </div>
+            <br>
+            <div>
+                <label for="checkbox">Checkbox</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+            </div>
+            <br>
+            <div>
+                <label for="file">Ficheiro</label>
+                <input type="file" name="file" id="file">
+            </div>
+            <br>
+            <div>
+                <label for="telefone">Telenone</label>
+                <input type="tel" name="telefone" id="telefone">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
